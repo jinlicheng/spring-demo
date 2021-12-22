@@ -1,0 +1,17 @@
+server:
+  port: 8080
+logging:
+  level:
+    ROOT: info
+    personal.jlc: debug
+
+bocloud:
+  paas:
+    list1:
+      - abc
+      - def
+    list2:
+      - name: abc
+        age: 2
+      - name: def
+        age: 3
